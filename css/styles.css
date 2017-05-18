@@ -14,7 +14,7 @@
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
-}
+ }
 
 .tree li {
     float: left;
@@ -134,6 +134,11 @@ right connector from last child*/
     border: 1px solid #94a0b4;
 }
 
+.tree li a:hover {
+	width:100px;
+	height:100px;
+	margin:auto;
+}
 
 /*Connector styles on hover*/
 
