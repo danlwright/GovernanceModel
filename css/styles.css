@@ -111,6 +111,8 @@ right connector from last child*/
     display: inline-block;
     width: 60px;
     hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
