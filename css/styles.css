@@ -1,11 +1,15 @@
 * {margin: 0; padding: 0;}
-
+.tree {
+	width:715px;
+	margin:auto;
+}
 .tree ul {
 	padding-top: 25px; position: relative;
 	
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
+
 }
 
 .tree li {
@@ -13,8 +17,7 @@
 	text-align: center;
 	list-style-type: none;
 	position: relative;
-	padding: 20px 5px 0 5px;
-
+	padding: 20px 1px 0 1px;
 	
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s;
@@ -72,18 +75,19 @@ right connector from last child*/
 	content: '';
 	position: absolute; top: 0; left: 50%;
 	border-left: 1px solid #ccc;
-	width: 0; height: 20px;
+	width: 0; height: 25px;
 }
 
 .tree li a{
 	border: 1px solid #ccc;
-	padding: 5px 10px;
+	padding: 5px 5px;
 	text-decoration: none;
 	color: #666;
 	font-family: arial, sans-serif;
-	font-size: 200%;
+	font-size: 12px;
 	display: inline-block;
-	width: 200px;
+	width: 60px;
+	hyphens: auto;
 	
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
